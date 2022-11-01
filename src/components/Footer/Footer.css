@@ -1,0 +1,19 @@
+body{
+    min-height: 100vh;
+    position: relative;
+}
+.sub-container-footer{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.copy p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+}

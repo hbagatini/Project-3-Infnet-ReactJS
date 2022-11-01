@@ -1,0 +1,31 @@
+.main-container-contact-us{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-container-contact-us form{
+    margin: 50px 0;
+    width: 50%;
+}
+.buttonSendIcon{
+    width: 100%;
+    background-color: black !important;
+}
+.text-contact{
+    opacity: 1;
+    color: black;
+    font-weight: 600;
+    margin: 40px 0px;
+    text-align: center;
+  }
+  .main-text-contact{
+    margin: 40px 0px;
+  }
+
+
+@media screen and (max-width: 994px) {
+    .main-container-contact-us form{
+        width: 80%;
+    }
+}

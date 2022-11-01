@@ -1,0 +1,30 @@
+/* Products */
+.text-Products{
+    opacity: 1;
+    color: black;
+    font-weight: 600;
+    margin: 40px 0px;
+    text-align: center;
+  }
+  .container-main-product{
+    padding-bottom: 20px;
+  }
+  .card{
+    transition: all 0.5s ease;
+  }
+  .card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
+}
+
+
+.buttom-buy-now:hover,
+.buttom-buy-now:focus {
+  opacity: .75;
+}
